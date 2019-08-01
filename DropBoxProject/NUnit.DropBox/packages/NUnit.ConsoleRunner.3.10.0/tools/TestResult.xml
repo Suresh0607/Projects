@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="6" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-07-30 03:18:57Z" end-time="2019-07-30 03:21:25Z" duration="147.950211">
+  <command-line><![CDATA[nunit3-console.exe  "C:\git\DropBoxProject\NUnit.DropBox\NUnit.DropBox\bin\Debug\NUnit.DropBox.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1003" name="NUnit.DropBox.dll" fullname="C:\git\DropBoxProject\NUnit.DropBox\NUnit.DropBox\bin\Debug\NUnit.DropBox.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-07-30 03:18:58Z" end-time="2019-07-30 03:21:25Z" duration="147.137429" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\git\DropBoxProject\NUnit.DropBox\packages\NUnit.ConsoleRunner.3.10.0\tools" machine-name="INVSYDWKS-007" user="suresh.nammi" user-domain="INVIGOR" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\git\DropBoxProject\NUnit.DropBox\packages\NUnit.ConsoleRunner.3.10.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="ParallelScope" value="Fixtures" />
+      <property name="LevelOfParallelism" value="5" />
+      <property name="_PID" value="8032" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1004" name="NUnit" fullname="NUnit" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-07-30 03:18:58Z" end-time="2019-07-30 03:21:25Z" duration="147.118335" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+      <test-suite type="TestSuite" id="0-1005" name="DropBox" fullname="NUnit.DropBox" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-07-30 03:18:58Z" end-time="2019-07-30 03:21:25Z" duration="147.117937" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+        <test-suite type="TestSuite" id="0-1006" name="FeatureFiles" fullname="NUnit.DropBox.FeatureFiles" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-07-30 03:18:58Z" end-time="2019-07-30 03:21:25Z" duration="147.117924" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+          <test-suite type="TestFixture" id="0-1000" name="ValidateDropBoxFolderShareFunctionalityFeature" fullname="NUnit.DropBox.FeatureFiles.ValidateDropBoxFolderShareFunctionalityFeature" classname="NUnit.DropBox.FeatureFiles.ValidateDropBoxFolderShareFunctionalityFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-07-30 03:18:58Z" end-time="2019-07-30 03:21:25Z" duration="147.117849" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+            <properties>
+              <property name="Description" value="Validate DropBox Folder share functionality," />
+            </properties>
+            <output><![CDATA[-> Using app.config
+]]></output>
+            <test-suite type="ParameterizedMethod" id="0-1002" name="VerifyUserCanUploadFilesToAFolderAndCanShare" fullname="NUnit.DropBox.FeatureFiles.ValidateDropBoxFolderShareFunctionalityFeature.VerifyUserCanUploadFilesToAFolderAndCanShare" classname="NUnit.DropBox.FeatureFiles.ValidateDropBoxFolderShareFunctionalityFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-07-30 03:18:58Z" end-time="2019-07-30 03:21:25Z" duration="146.561521" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+              <properties>
+                <property name="Description" value="Verify user can upload files to a folder and can Share" />
+              </properties>
+              <test-case id="0-1001" name="VerifyUserCanUploadFilesToAFolderAndCanShare(&quot;autotesting.user.02@gmail.com&quot;,&quot;Sydney@0607&quot;,&quot;https://www.dropbox.com/login&quot;,&quot;DropBox_TestFolder&quot;,&quot;TestFile_1.txt:TestFile_2.txt&quot;,&quot;suresh.nammi@invigorgroup.com&quot;,null)" fullname="NUnit.DropBox.FeatureFiles.ValidateDropBoxFolderShareFunctionalityFeature.VerifyUserCanUploadFilesToAFolderAndCanShare(&quot;autotesting.user.02@gmail.com&quot;,&quot;Sydney@0607&quot;,&quot;https://www.dropbox.com/login&quot;,&quot;DropBox_TestFolder&quot;,&quot;TestFile_1.txt:TestFile_2.txt&quot;,&quot;suresh.nammi@invigorgroup.com&quot;,null)" methodname="VerifyUserCanUploadFilesToAFolderAndCanShare" classname="NUnit.DropBox.FeatureFiles.ValidateDropBoxFolderShareFunctionalityFeature" runstate="Runnable" seed="160382397" result="Passed" start-time="2019-07-30 03:18:58Z" end-time="2019-07-30 03:21:25Z" duration="146.555945" asserts="6">
+                <output><![CDATA[Given user autotesting.user.02@gmail.com with Sydney@0607 logs into the https://www.dropbox.com/login
+-> done: Validate_DropBox_Steps.Given_User_Logs("autotesting.user....", "Sydney@0607", "https://www.dropb...") (10.8s)
+Then user should see the 'Home' as PageHeader
+-> done: Validate_DropBox_Steps.Then_User_Should_See_The_PageHeader("Home") (0.1s)
+Then user NaviateTo 'Files'
+-> done: Validate_DropBox_Steps.Then_User_NaviateTo("Files") (1.9s)
+Then user should see the 'Dropbox' as PageTitle
+-> done: Validate_DropBox_Steps.Then_User_Should_See_The_PageTitle("Dropbox") (0.0s)
+Then user creates NewFolder DropBox_TestFolder
+-> done: Validate_DropBox_Steps.Then_User_Creates_NewFolder("DropBox_TestFolder") (7.9s)
+Then user should see the newly create Folder DropBox_TestFolder
+-> done: Validate_DropBox_Steps.Then_User_Should_See_The_Newly_CreateFolder("DropBox_TestFolder") (1.9s)
+Then user upload files TestFile_1.txt:TestFile_2.txt to DropBox_TestFolder
+-> done: Validate_DropBox_Steps.Then_User_UploadFiles_To("TestFile_1.txt:Te...", "DropBox_TestFolder") (89.2s)
+Then verify newly Upload files TestFile_1.txt:TestFile_2.txt exists under the folder DropBox_TestFolder
+-> done: Validate_DropBox_Steps.Then_Verify_NewlyUploadFiles_Under_TestFolder("TestFile_1.txt:Te...", "DropBox_TestFolder") (14.2s)
+Then user can share DropBox_TestFolder to suresh.nammi@invigorgroup.com
+-> done: Validate_DropBox_Steps.Then_User_Can_ShareTo("DropBox_TestFolder", "suresh.nammi@invi...") (18.0s)
+And user Logs out of the application
+-> done: Validate_DropBox_Steps.Then_User_Logs_Out_Of_TheApplication() (1.0s)
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
